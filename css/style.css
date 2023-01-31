@@ -3,3 +3,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color:#f6f8f9;
+}
+
+/* HEADER */
+header{
+    background-color: #ffff;
+    height: 80px;
+}
+.logo{
+    padding:15px;
+}
+.title-container{
+    display: inline-block;
+}
+.title-container > span{
+    font-size: 40px;
+    font-family: 'Roboto' , sans-serif;
+    float: left;
+    line-height: 80px;
+}
