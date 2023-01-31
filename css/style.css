@@ -60,7 +60,7 @@ hr{
     border:0px;
 }
 /* SECTION MENU-SCROLL */
-.newtask{
+.newtask, .today{
     margin-top:50px;
     height: 100px;
 }
@@ -74,14 +74,15 @@ hr{
     margin-left:60px;
     margin-top:25px;
 }
-
 h1{
     display: inline-block;
     font-size: 25px;
     font-family: 'Roboto' , sans-serif;
     line-height: 25px;
 }
-
+.description{
+    margin-bottom:5px;
+}
 .circle-entity{
     display: inline-block;
     width: 20px;
@@ -91,8 +92,23 @@ h1{
     margin-left: 70px;
     margin-top:10px;
 }
+.circle-entity-cross{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid red;
+    margin-left: 70px;
+    margin-top:10px;
+}
 .check{
     color:green;
+    font-size: small;
+    margin-left:2px;
+    font-style: bold;
+}
+.cross{
+    color:red;
     font-size: small;
     margin-left:2px;
     font-style: bold;
@@ -107,6 +123,31 @@ h1{
     margin-left:5px;
     border:0;
     background-color: #47adf1;
+    border-radius:20px;
+    padding: 5px 8px 5px 8px;
+    font-size:12px;
+    color:white;
+}
+.goals{
+    margin-left:5px;
+    border:0;
+    background-color: #996ee3;
+    border-radius:20px;
+    padding: 5px 8px 5px 8px;
+    font-size:12px;
+    color:white;
+}.recruiting{
+    margin-left:5px;
+    border:0;
+    background-color: #64c0a9;
+    border-radius:20px;
+    padding: 5px 8px 5px 8px;
+    font-size:12px;
+    color:white;
+}.mobile{
+    margin-left:5px;
+    border:0;
+    background-color: #f29e33;
     border-radius:20px;
     padding: 5px 8px 5px 8px;
     font-size:12px;
